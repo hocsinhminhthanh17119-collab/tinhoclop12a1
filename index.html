@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="light" lang="vi">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Lão Hạc – Trang chủ</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        primary: "#8B7355",
+        background: "#FDFBF7",
+        text: "#3E3832"
+      },
+      fontFamily: {
+        display: ["Newsreader", "serif"],
+        sans: ["Inter", "sans-serif"]
+      }
+    }
+  }
+}
+</script>
+</head>
+
+<body class="bg-background text-text font-sans min-h-screen flex items-center justify-center">
+
+<div class="text-center px-6">
+  <h1 class="font-display text-4xl mb-4">Lão Hạc</h1>
+  <p class="mb-8 text-gray-600">Nam Cao</p>
+
+  <a href="detail.html"
+     class="inline-flex items-center gap-3 bg-text text-white px-8 py-4 rounded-2xl text-lg hover:opacity-90 transition">
+    Xem chi tiết
+    <span class="material-symbols-outlined">arrow_forward</span>
+  </a>
+</div>
+
+</body>
+</html>
